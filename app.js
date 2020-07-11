@@ -13,7 +13,6 @@ todoList.addEventListener("click", removeCheck);
 
 
 
-
 //Functions
 function addTodo(event){
 
@@ -56,14 +55,18 @@ function addTodo(event){
     // Put the todo Div in the todo List(ul)
     todoList.appendChild(todoDiv);
     // Clear todo Input value
-    todoInput.value = "";
-    }
-    
+    todoInput.value = "";    
+
+    }  
+  
+
 }
+
+
 
 function removeCheck(event){
     const item = event.target;
-    console.log(item);
+    
     // Delete item
     if(item.classList[0] === "remove-btn"){
         const todoDiv = item.parentElement;
@@ -72,8 +75,7 @@ function removeCheck(event){
         // Remove todo after transition happened
         todoDiv.addEventListener("transitionend", function(){
             todoDiv.remove();
-        })
-        
+        })       
 
     }
 
