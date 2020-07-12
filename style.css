@@ -26,9 +26,12 @@ form {
     padding: 0.5rem;
     font-size: 2rem;
     border: none;    
-    background: white;
+    background: white;   
+    box-shadow: 5px 10px 10px 0 rgba(0,0,0,.5); 
         
 }
+
+
 
 
 .todo-button {
@@ -64,6 +67,7 @@ form {
   justify-content: space-between;
   align-items: center;
   transition: 0.3s ease;
+  box-shadow: 5px 10px 10px 0 rgba(0,0,0,.5);
   
   
 }
@@ -123,6 +127,8 @@ form {
   transform: translateY(8rem) rotateZ(20deg);
    opacity: 0;
 }
+
+
 
 /* Footer */
 
