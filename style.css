@@ -19,38 +19,35 @@ form {
   justify-content: center;
   align-items: center;
   margin-bottom: 2rem;
-
 }
 
-.todo-input, .todo-button {
-    padding: 0.5rem;
-    font-size: 2rem;
-    border: none;    
-    background: white;   
-    box-shadow: 5px 10px 10px 0 rgba(0,0,0,.5); 
-        
+.todo-input,
+.todo-button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background: white;
+  box-shadow: 5px 10px 10px 0 rgba(0, 0, 0, 0.5);
+  word-wrap: break-word;
+  word-break: break-all;
 }
-
-
-
 
 .todo-button {
-    color: #f85f73;
-    background: white;
-    cursor: pointer;
-    transition: all 0.4s ease;
-    
+  color: #f85f73;
+  background: white;
+  cursor: pointer;
+  transition: all 0.4s ease;
 }
 
 .todo-button:hover {
-    color: white;
-    background: #f85f73 ;
+  color: white;
+  background: #f85f73;
 }
 
-.todo-container { 
+.todo-container {
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
 
 .todo-list {
@@ -67,32 +64,30 @@ form {
   justify-content: space-between;
   align-items: center;
   transition: 0.3s ease;
-  box-shadow: 5px 10px 10px 0 rgba(0,0,0,.5);
-  
-  
+  box-shadow: 5px 10px 10px 0 rgba(0, 0, 0, 0.5);
+  word-wrap: break-word;
+  word-break: break-all;
 }
 
 .todo-item {
   flex: 1;
   padding: 0 1rem;
-  
 }
 
-.complete-btn, .remove-btn, .exclamation-btn {
+.complete-btn,
+.remove-btn,
+.exclamation-btn {
   background: #f85f73;
-  color: white;  
+  color: white;
   border: none;
   padding: 1rem;
   cursor: pointer;
   font-size: 1rem;
-  
-  
 }
 
-.remove-btn:hover{
+.remove-btn:hover {
   background: #fa1616;
 }
-
 
 .exclamation-btn {
   background: #f08a5d;
@@ -103,14 +98,16 @@ form {
 }
 
 .complete-btn {
-  background: rgb(133, 209, 114);  
+  background: rgb(133, 209, 114);
 }
 
-.complete-btn:hover{
+.complete-btn:hover {
   background: #639a67;
 }
 
-.fa-check-circle, .fa-trash-alt, .fa-exclamation-circle {
+.fa-check-circle,
+.fa-trash-alt,
+.fa-exclamation-circle {
   pointer-events: none;
 }
 
@@ -118,25 +115,22 @@ form {
   background: yellow;
 }
 
-.completed {    
+.completed {
   text-decoration: line-through;
-  opacity: 0.4;  
+  opacity: 0.4;
 }
 
 .fade {
   transform: translateY(8rem) rotateZ(20deg);
-   opacity: 0;
+  opacity: 0;
 }
-
-
 
 /* Footer */
 
 footer {
-  margin-top: 10rem;  
+  margin-top: 10rem;
   text-align: center;
   padding: 5rem;
-
 }
 
 .fab {
@@ -147,16 +141,16 @@ footer {
 .foot-logo1 {
   margin-bottom: 0;
   color: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 2rem;
   font-weight: 200;
-  }
+}
 
 .foot-logo2 {
   font-weight: 600;
 }
 
-.Copyright{
+.Copyright {
   margin-bottom: 0;
   color: #ffffff;
   margin-top: 2rem;
@@ -168,5 +162,4 @@ footer {
   text-decoration: underline;
   color: #ffffff;
   font-size: 1rem;
-
 }
